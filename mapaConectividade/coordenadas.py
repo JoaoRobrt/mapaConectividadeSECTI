@@ -231,7 +231,9 @@ for municipio in municipios_pb:
     lat, lon = obter_coordenadas(municipio, uf)
     coordenadas_municipio[municipio] = (lat, lon)
 
-    # print(f"{municipio}, Latitude {lat}, Longitude: {lon}")
+    print(f"{municipio}, Latitude {lat}, Longitude: {lon}")
+
+
 
 contagem = 0
 
